@@ -1,3 +1,7 @@
+<script>
+	import successkid from 'images/successkid.jpg';
+</script>
+
 <style>
 	h1, figure, p {
 		text-align: center;
@@ -36,10 +40,10 @@
 	<title>Sapper project template</title>
 </svelte:head>
 
-<h1 class="text-red-500">Great success!</h1>
+<h1>Great success!</h1>
 
 <figure>
-	<img alt='Success Kid' src='successkid.jpg'>
+	<img alt="Success Kid" src="{successkid}">
 	<figcaption>Have fun with Sapper!</figcaption>
 </figure>
 

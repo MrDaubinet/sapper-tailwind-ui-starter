@@ -1,10 +1,10 @@
-<script>
-	export let segment;
+<script lang="ts">
+	export let segment: string;
 </script>
 
-<style>
+<style>	
 	nav {
-		border-bottom: 1px solid rgba(255,62,0,0.1);
+		/* border-bottom: 1px solid rgba(255,62,0,0.1); */
 		font-weight: 300;
 		padding: 0 1em;
 	}
@@ -48,7 +48,7 @@
 	}
 </style>
 
-<nav>
+<nav class="border-b-2 border-yellow-600 border-opacity-10">
 	<ul>
 		<li><a aria-current="{segment === undefined ? 'page' : undefined}" href=".">home</a></li>
 		<li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about">about</a></li>
